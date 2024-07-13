@@ -10,11 +10,11 @@ namespace Player {
         void Start() {
             // _cooldownTime = cooldown;
             _character = gameObject.GetComponent<CharacterLoader>().Character;
-            StartCoroutine(FixedCourutine());
-            StartCoroutine(PerFrameCourutine());
+            StartCoroutine(FixedCoroutine());
+            StartCoroutine(PerFrameCoroutine());
         }
         
-        IEnumerator PerFrameCourutine()
+        IEnumerator PerFrameCoroutine()
         {
             while(true)
             {
@@ -24,7 +24,7 @@ namespace Player {
             }
         }
         
-        IEnumerator FixedCourutine()
+        IEnumerator FixedCoroutine()
         {
             while(true)
             {
