@@ -1,0 +1,14 @@
+/Logs/*
+/UserSettings/*
+/obj/*
+/Library/*
+.vs/*
+.idea/*
+
+# Расширения
+.cjproj
+.sln
+
+# Исключения
+!*.dll
+!*.obj
